@@ -1,0 +1,13 @@
+:root{ --bg:#f4f6f8; --card:#fff; --accent:#2b6cb0 }
+*{ box-sizing:border-box }
+body{ margin:0; font-family:Inter, system-ui, Arial; background:var(--bg); color:#111 }
+.app-shell{ min-height:100vh; display:flex; flex-direction:column }
+.nav{ display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:linear-gradient(90deg,#fff,#f7fafc); box-shadow:0 1px 3px rgba(0,0,0,0.04) }
+.nav a{ margin-left:12px; text-decoration:none; color:var(--accent) }
+.main{ padding:24px; max-width:900px; margin:0 auto; width:100% }
+.card{ background:var(--card); padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.04) }
+.form label{ display:block; margin-bottom:12px }
+.form select,input[type=file]{ display:block; margin-top:6px }
+.preview img{ max-width:320px; max-height:320px; display:block; margin-top:8px; border-radius:8px }
+.actions{ margin-top:14px }
+button{ padding:8px 14px; border-radius:8px; border:0; background:var(--accent); color:#fff }
