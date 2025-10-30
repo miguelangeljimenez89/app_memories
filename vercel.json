@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "installCommand": "npm ci || npm install",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "installCommand": "npm install",
   "env": {
     "NODE_VERSION": "18"
   }
